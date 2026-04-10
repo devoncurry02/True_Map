@@ -1,22 +1,21 @@
 # True Map App
 
-This code calls upon multiple directories to allow the two users to play chess on separate android devices.
+This code runs in Android Studio Code to allow the user to check their location.
 
 ## Instructions for Build and Use
 
-[Software Demo]()
+[Software Demo](https://youtu.be/DqXqg0v0X_o)
 
 Steps to build and/or run the software:
 
 1. Install Android Studio
-2. Download the chess file from the github repository.
+2. Download all files from the github repository.
 3. Run the program.
 
 Instructions for using the software:
 
-1. The app will display a start screen until the user presses "start".
-2. The chess board will load and players will take turns moving pieces until one player takes the other player's king.
-3. At the end of each game the players are given the option to play again or to exit.
+1. Upon first opening the app, it will ask for your permission and you must accept.
+2. The map will load and put a little person icon directly where you are (note that you need to zoom out to find where you are).
 
 # Development Environment
 
@@ -32,11 +31,12 @@ To recreate the development environment, you need the following software and/or 
 * [Kotlin (official website)](https://kotlinlang.org/)
 * [W3 Schools Android Tutorial Index](https://www.w3schools.in/android/tutorials/)
 * [Android Studio - Build Your First App](https://developer.android.com/get-started/overview)
-* [Geeks for Geeks - Kotlin when expression](https://www.geeksforgeeks.org/kotlin/kotlin-when-expression/)
 
 ## Future Work
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
-* [ ] Allow the user to play against a computer.
-* [ ] Allow each piece to move uniquely.
+* [ ] Make the app auto locate.
+* [ ] Include an executable and publish.
+* [ ] Allow the user to input a desination and be guided.
+* [ ] Put toggleable filters on like weather and high crime zones.
